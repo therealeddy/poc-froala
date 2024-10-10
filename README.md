@@ -88,6 +88,10 @@ Toda a configuração do campo é definida por meio de uma propriedade objeto `c
 <Froala config={config} />
 ```
 
+Para ver o exemplo do componente [clique aqui](./src/data.ts). <br />
+Para ver o exemplo do arquivo de configuração [clique aqui](./src/editor.ts).
+
+
 ## Configuração Padrão
 
 - **key**: Chave de ativação do Froala
