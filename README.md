@@ -88,7 +88,7 @@ Toda a configuração do campo é definida por meio de uma propriedade objeto `c
 <Froala config={config} />
 ```
 
-Para ver o exemplo do componente [clique aqui](./src/editor.ts). <br />
+Para ver o exemplo do componente [clique aqui](./src/editor.tsx). <br />
 Para ver o exemplo do arquivo de configuração [clique aqui](./src/data.ts).
 
 ## Configuração Padrão
