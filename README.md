@@ -266,3 +266,36 @@ events: {
   }
 }
 ```
+
+## Backend
+
+Foi alinhado com o back que ele retornará o atributo `settings` contendo as 4 categorias de botões, controlando o que deve ou não aparecer, além de poder controlar a quantidade de botões visíveis. Também poderá configurar outros atributos como `placeholder`, `height` e outros, a partir do atributo `additionalConfigs`.
+
+```javascript
+{
+  rowId: 1,
+  type: "richTextField",
+  alias: "example.froalaField",
+  defaultValue: "",
+  disabled: false,
+  settings: {
+    moreText: {
+      buttons: [], // Quais botões devem ser exibidos na seção.
+      buttonsVisible: 3 // Quantidade de botões visíveis.
+    },
+    moreParagraph: {
+      buttons: [], // Quais botões devem ser exibidos na seção.
+      buttonsVisible: 3 // Quantidade de botões visíveis.
+    },
+    moreRich: {
+      buttons: [], // Quais botões devem ser exibidos na seção.
+      buttonsVisible: 3 // Quantidade de botões visíveis.
+    },
+    moreMisc: {
+      buttons: [], // Quais botões devem ser exibidos na seção.
+      buttonsVisible: 3 // Quantidade de botões visíveis.
+    },
+    additionalConfigs: {} // Objeto livre para compor quaisquer chaves/valor adicionais (Não podendo compor funções JS).
+  }
+}
+```
